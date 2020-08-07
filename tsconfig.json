@@ -12,7 +12,8 @@
       ".src/@types"
     ],
     "esModuleInterop": true,
-    "resolveJsonModule": true,    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
