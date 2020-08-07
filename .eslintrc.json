@@ -46,26 +46,12 @@
         }],
         "no-underscore-dangle": "off",
         "@typescript-eslint/camelcase": "off",
-        "prettier/prettier": "error",
         "class-methods-use-this": "off",
         "import/extensions": [
           "error",
           "ignorePackages",
           {
             "ts": "never"
-          }
-        ],
-        "import-helpers/order-imports": [
-          "warn",
-          {
-            "newlinesBetween": "always", // new line between groups
-            "groups": [
-              "module",
-              "/^@server\/shared/",
-              "/^@/",
-              ["parent", "sibling", "index"]
-            ],
-            "alphabetize": { "order": "asc", "ignoreCase": true }
           }
         ]
       }
